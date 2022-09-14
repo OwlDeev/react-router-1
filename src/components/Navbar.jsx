@@ -22,7 +22,7 @@ export default function NavBar() {
                 variant="h5"
                 sx={{ flexGrow: 1, flexDirection: "row" }}
               >
-                <Link className="link" to="/">
+                <Link className="link" to="/react-router-1">
                   Home
                 </Link>
               </Typography>
