@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react-router-1" element={<Home />} />
           <Route path="/planes" element={<Planes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
