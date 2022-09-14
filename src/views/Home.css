@@ -1,0 +1,35 @@
+.divMain{
+    width: 100%;
+    height: 95vh;
+}
+
+.sectionOne{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/fontSectionOne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.fullSize{
+    width: 100%;
+    height: 100%;
+}
+
+.rightSectionOne{
+    /* background-color: rgba(0, 0, 0, 0.673); */
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBold{
+    font-weight: bold
+}
